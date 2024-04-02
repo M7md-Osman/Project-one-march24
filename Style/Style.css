@@ -1,0 +1,782 @@
+*{padding: 0;
+margin: 0;
+}    
+
+body{
+  width:100% ;
+  height: 100%;
+  background-color: #2e3131;
+}
+
+.father{
+ position: relative;
+   
+}
+.car img{
+    width: 100%;
+    height: 100vh;
+ 
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: azure;
+    opacity: 50%;
+    z-index: 10;
+}
+
+.logo img{
+height: 50px;
+width:200px;
+ color: black;
+z-index: 11;
+position: fixed;
+float: left;
+border-radius: 50%;
+}
+.list{
+position: absolute;
+z-index: 12;
+float: left;
+margin-left: 500;
+
+}
+.list li {
+    list-style-type: none;
+    float: left;
+    margin-left: 100;
+   margin-top: 10;
+  z-index: 12;
+   font-size: xx-large;
+}
+.list li a{
+  text-decoration: none;
+  color: #a9a6d3;
+  
+}
+.list li a:hover{
+color: aqua;
+text-decoration: underline;
+}
+ 
+ 
+
+
+.b1  a{
+    position: absolute;
+    z-index: 4;
+    color: rgb(175, 190, 190);
+ top: 400;
+ left: 100px;
+   font-size: xx-large;
+   text-decoration: none;
+}
+.b1 a:hover{
+  color: aqua;
+}
+
+.textt{
+  position: absolute;
+  z-index: 5;
+  top: 450;
+ left: 100px;
+ font-size: xx-large;
+color: rgb(131, 252, 252);
+}
+        
+                                                                                                    .heads2{
+                margin-left: 43% ;
+                font-size: xx-large;
+                color: #9bf0f3;
+                }
+                .s222{
+                  width: 100%;
+    height: 100vh;
+    background-color: #02141f70;
+
+                }
+                
+                .under{
+                width: 50px;
+                margin-left: 47%;
+                color: #e9ebeb;
+                margin-top: -2;
+                }
+                
+                 
+                
+                .fathers2{
+                    border-style: solid;
+                border-color: aqua;
+                color: #e9ebeb;
+                width: 300;
+                height: 200px;
+                text-align: center;
+                text-transform: capitalize;
+                margin-left: 100;
+                margin-top: 100;
+                position: relative;
+                float: left;
+
+                }
+                
+                .fathers2 a{
+                    color: aquamarine;
+                    text-decoration: none;
+                }
+                
+                .fathers2 p{text-transform: lowercase;
+                 
+                }
+                 
+                .fathers2 i{
+                  font-size: xx-large;
+                }
+
+               
+                .fathers2:after{
+                  position: absolute;
+ content:"";
+
+width: 0;
+height: 0;
+
+left: 0;
+top: 0;
+
+background-color: black;
+opacity: 0;
+
+                }
+
+                .fathers2:hover:after{
+                  width: 100%;
+                  height: 100%;
+                  opacity: 50%;
+                  transition: 1s;
+                }
+                .fathers2:hover h2{
+color: aqua;
+
+ }
+                                                                                                        .s333{
+                                       width: 100%;
+                                       height: 100vh;
+ }
+ .heads3{
+  margin-left: 43% ;
+  font-size: xx-large;
+  color: #9bf0f3;
+  }
+  .under2{
+    width: 50px;
+    margin-left: 47%;
+    color: #e9ebeb;
+    margin-top: -2;
+    }
+    .w{
+      width: 300;
+      height: 270;
+      background-color: azure;
+      margin-left: 100px;
+      position: relative;
+      z-index: 1;
+      float: left;
+    }
+
+    .wimg img{
+      width: 250;
+      height: 250;
+      padding-left: 25;
+      position: absolute;
+      z-index: 2;
+    }
+
+    .w a, .w p , .w i{
+      visibility: hidden;
+      color: aqua;
+      text-align: center;
+    }
+ 
+    .w:hover .overlay{
+     width: 330;
+     height: 300;
+     position: absolute;
+     z-index: 3;
+     background-color: black;
+     opacity: 80%;
+     margin-left: -18px;
+     margin-top: -16px;
+     transition: 1s;
+    }
+    
+    .w:hover .caps{
+      visibility: visible;
+      padding-top: 20;
+color: aqua;
+text-transform: uppercase;
+    }
+    .w:hover .norm{
+      visibility: visible;
+  padding-top: 5;
+color: rgb(253, 253, 253);
+font-size: x-large;
+    }
+    .w:hover i{
+      visibility: visible;
+      color: rgb(19, 185, 250);
+      font-size: xx-large;
+margin-left: 45%;
+padding-top: 20%;
+}
+     
+                                                                                                                    .s444{
+                                                                                                                      width: 100%;
+                                                                                                                      height: 100vh;
+}
+.head4{
+  margin-left: 35% ;
+ font-size: xx-large;
+  color: #9bf0f3;
+}
+
+.under4{
+  width: 50px;
+  margin-left: 47%;
+  color: #5dd6d6;
+  margin-top: -2;
+  }
+.w4{
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  width: 200;
+  height: 200;
+  margin-left: 100;
+  text-align: center;
+  position: relative;
+}
+.p1{
+text-transform: capitalize;
+font-size: xx-large;
+color: rgb(0, 243, 243);
+display: inline;
+
+}
+.p2{
+  text-transform: capitalize;
+  color: rgb(227, 247, 247)
+}
+
+.w4 i{
+  display: inline;
+  font-size: x-large;
+  color: #03c4f5;
+  }
+
+.w4:after{
+ position: absolute;
+content:"";
+ width: 0;
+ height: 0;
+ left: 0;
+ top: 0; 
+ background-color: black;
+ opacity: 0;
+ }
+
+.w4:hover:after{
+  width: 100%;
+  height: 100%;
+  opacity: 50%;
+  transition: 1s;
+  z-index: -1;
+ }
+ .w4:hover .p1{
+ color: #f1f1f1;
+ }
+ .w4:hover .p2{
+  color: #09b8fd;
+  }
+.w4{
+  float: left;
+  margin-left: 100;
+}
+                                                                                                                          .s555{
+                                                                                                                        width: 100%;
+                                                                                                                        height: 100vh;
+                                                                                                                        background-color: #021f3170;
+                                                                                                                      }
+ .par{
+  margin: 0 0 0 10% ;
+  padding-top: 100;
+  width: 40%;
+  line-height: 2;
+  display: inline;
+  float: left;
+}
+
+  .under5{
+    width: 10;
+    margin-top: -10;
+
+  }
+  .imgbig {
+   float: right; 
+   display: inline;  
+width: 30%;
+  }
+  .imgbig img{
+    height: 400;
+ width: 100%;
+margin-top: 50;
+margin-left: -80;
+}
+
+.fixed{
+  background-color: rgb(34, 250, 250);
+  border-style: solid;
+  border-radius: 100%;
+  width: 10;
+  height: 10;
+  float: left;
+  margin-left: 25%;
+ }
+
+.changed{
+  border-style: solid;
+  border-radius: 100%;
+  width: 10;
+  height: 10;
+  float: left;
+ }
+
+.changed:hover{
+  border-style: solid;
+  border-radius: 100%;
+  width: 10;
+  height: 10;
+  background-color: rgb(34, 250, 250);
+  float: left;
+
+}
+                                                                                                                            .s666{
+  width: 100%;
+  height: 50%;
+  background-color: #0321338c;
+  position: relative;
+}
+ .back{
+  background-image: url(back.jpg);
+  background-repeat: no-repeat;
+position: absolute;
+  background-position:center;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+ }
+.ICONI{
+  font-size: xxx-large;
+  color: #057c8b;
+  position: absolute;
+z-index: 2;
+margin-top:100;
+margin-left:250;
+}
+.ICONI div{
+  padding-left: 100;
+  display: inline;
+  float: right;
+}
+
+                                                                                                                        .s777{
+  width: 100%;
+    height: 100%;
+  background-color: #0321338c;
+  position: relative;
+   }
+  .head7{
+
+  }
+  .m4{
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    width: 200;
+    height: 200;
+    margin-left: 100;
+    text-align: center;
+    position: relative;
+    float: left;
+    margin-right: 50;
+    left: 100;
+    top: 50;
+  }
+  .m4:after{
+width: 100%;
+height: 0%;
+opacity: 0;
+background-color: #09b8fd;
+transition: 1s;
+top: 0;
+content: "";
+position: absolute;
+left: 0;
+
+  }
+  .m4:hover:after{
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+    background-color: #09b8fd;
+    transition: 1s;
+    top: 0;
+    left: 0;
+       }
+       .m4:hover i{
+        color: #ee8700;
+       }
+       .m4:hover .p1{
+        color: #ffa600;
+       }
+  .head7{
+    padding-top: 50;
+    margin-left: 35% ;
+   font-size: xx-large;
+    color: #9bf0f3;
+  }
+  
+  .under7{
+    width: 50px;
+    margin-left: 40%;
+    color: #5dd6d6;
+    margin-top: -2;
+    }
+    .back8{
+      width: 100%;
+     height: 50%;
+     background-color: #06323d;
+     background-image: url(s25.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-attachment:fixed ;
+     background-size:cover ;
+     position: relative;
+    }
+    .iconup{
+      position: relative;
+      color: #06323d;
+      font-size: 50;
+      margin-left:400 ;
+    top: 50;
+      width: 100%;
+     
+    }
+    .iconup .texticon{
+      float: left;
+      position: absolute;
+      left: 110;
+    }
+    .iconup .texticon p{
+     font-size: x-large;
+     color: #9d0aff;
+    }
+  
+    .iconup .imgicon img{
+width: 100;
+height: 100;
+border-radius: 50%;
+border-style:solid ;
+position: absolute;
+    }
+    .iconup .texticon .bb{
+      color: #01f8ec;
+          }
+    .iconup2{
+      position: relative;
+      color: #06323d;
+      font-size: 50;
+      margin-left:60% ;
+    top: 30;
+      width: 100%;
+     
+    }
+    .iconup2 .texticon2{
+      float: left;
+      position: absolute;
+      left: 110;
+    }
+    .iconup2 .texticon2 p{
+     font-size: x-large;
+     color: #9d0aff;
+    }
+  
+    .iconup2 .imgicon2 img{
+width: 100;
+height: 100;
+border-radius: 50%;
+border-style:solid ;
+position: absolute;
+    }
+    .iconup2 .texticon2 .bb{
+color: #01f8ec;
+    }
+                                                                                                    .back9{
+      width: 100%;
+     height: 100vh;
+     
+    }
+    .bback9{
+      width: 300;
+      height: 310;
+      margin-left: 100;
+      margin-top: 50;
+      background-color: #057c8b;
+      position: relative;
+ float: left;
+
+    }
+    .back9 .tex1{
+text-align: center;  
+font-size: xx-large; 
+color: #00f7ff;
+ }
+.h9{
+  width: 20;
+  padding-top: -20;
+ margin-left: 50%;   
+
+}
+ 
+    .picc img{
+      position: absolute;
+      width: 250;
+      height: 230;
+      margin-left: 20;
+      margin-top: 20;
+     }
+    
+      .tex2{
+      font-size: large;
+      color: #04463d;
+      padding-top: 250;
+      margin-left: 70;
+     position: absolute;
+     z-index: 5;
+     text-align: center;
+}  
+
+ 
+.iconleft {
+  position: absolute;
+  z-index: 5;
+color: #06ffde;
+right: 1;
+z-index: 6;
+}
+
+.iconleft i{
+font-size:x-large ;
+  padding-top: 5;
+  visibility: hidden;
+  z-index: 4;
+
+}
+
+.bback9:hover i{
+  visibility: visible;
+ 
+}
+ 
+
+.bback9:after{
+  width: 100%;
+  height: 0%;
+  opacity: 0;
+  background-color: #202c31;
+  transition: 1s;
+  top: 0;
+  content: "";
+  position: absolute;
+  left: 0;
+  
+    }
+    .bback9:hover:after{
+      width: 100%;
+      height: 100%;
+      opacity: 50%;
+      background-color: #233841;
+      transition: 1s;
+      top: 0;
+      left: 0;
+         }
+         .bback9:hover .tex3{
+color: #07e651;
+         }
+
+         .bback9:hover .tex4{
+          color: #ff3300;
+         }
+                                                                  .sec100{
+  width: 100%;
+  height: 50vh;
+ }
+  .tex100{
+  text-align: center;  
+  font-size: xx-large; 
+  color: #00f7ff;
+   }
+
+  .h100{
+    width: 20;
+    padding-top: -20;
+   margin-left: 50%;   
+  }
+   .allsec{
+    width: 1000;
+    height: 400;
+    background-color: #00f7ff;
+    margin-left: 150;
+  }
+  
+ .secback101{
+width: 300;
+height: 400;
+background-color: #023238;
+ 
+position: relative;
+float: left;
+margin-right: 33;
+ }
+ .secback102{
+  width: 300;
+  height: 400;
+  background-color: #023238;
+   
+  position: relative;
+  float: left;
+  margin-right: 33;
+  margin-left: 17;
+   }
+   .secback103{
+    width: 300;
+    height: 400;
+    background-color: #023238;
+     
+    position: relative;
+    float: left;
+     margin-left: 17;
+     }
+ .div1 img{
+  height:200 ;
+  width: 200;
+ }
+ .div2{
+ font-size: small;
+ padding-top:20 ;
+ padding-bottom:20 ;
+ }
+.div5 a{
+text-decoration: none;
+}
+
+.secback101:after{
+  width: 100%;
+  height: 0%;
+  opacity: 0;
+  background-color: #2f5566;
+  transition: 1s;
+  top: 0;
+  content: "";
+  position: absolute;
+  left: 0;
+  
+    }
+    .secback101:hover:after{
+      width: 100%;
+      height: 100%;
+      opacity: 50%;
+       transition: 1s;
+      top: 0;
+      left: 0;
+ }
+ .secback102:after{
+ width: 100%;
+ height: 0%;
+ opacity: 0;
+ background-color: #2f5566;
+ transition: 1s;
+ top: 0;
+ content: "";
+ position: absolute;
+ left: 0;
+ 
+ }
+ .secback102:hover:after{
+ width: 100%;
+ height: 100%;
+ opacity: 50%;
+ transition: 1s;
+ top: 0;
+ left: 0;
+ }.secback103:after{
+ width: 100%;
+ height: 0%;
+ opacity: 0;
+ background-color: #2f5566;
+ transition: 1s;
+ top: 0;
+ content: "";
+ position: absolute;
+ left: 0;
+                  
+ }
+ .secback103:hover:after{
+ width: 100%;
+ height: 100%;
+ opacity: 50%;
+    transition: 1s;
+ top: 0;
+  left: 0;
+  }
+                                                                                            .sec11{
+width:100% ;
+height:60vh ;
+}
+.picsec11 img{
+  width:200 ;
+  height: 200;
+margin-left: 44%;
+margin-top: 20;
+border-style: hidden;
+border-radius: 30%;
+}
+.iconsec11 a{
+display: inline;
+color: #00ffdd;
+float: left;
+margin-left: 10;
+}
+
+.iconsec11  {
+margin-left: 43%;
+margin-top: 50;
+font-size: x-large;
+  }
+
+.copywrite{
+  text-align: center;
+  margin-top: 50;
+  color: #00ffdd;
+
+}
+
+.iconsec11 a:hover{
+  color: #000000;
+ }
+
+
